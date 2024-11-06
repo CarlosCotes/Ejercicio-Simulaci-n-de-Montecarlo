@@ -1,0 +1,40 @@
+:root{
+background-image: linear-gradient(to bottom, #430e75, #000000);
+height: 100%;}
+
+#content{
+color:white;
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+
+#titulo{
+text-align: center;
+color:white;
+
+}
+
+#target{
+    background-color: rgb(68, 2, 74);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 5%;
+    #btn{
+        height: 100px;
+        width: 25%;
+        border: none;
+        border-radius: 5%;
+        background-color: black;
+        color: white;
+    }
+
+}
+
+
